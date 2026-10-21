@@ -1,13 +1,8 @@
-# Problema 14
+# Problema 14. Estado del aprendiz
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Operador condicional ternario (`?:`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza el operador ternario para llevar a cabo una evaluación directa de la nota mínima requerida (3.0) y asignar en una única línea de código el estado de aprobación correspondiente, optimizando la legibilidad.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema14.png)
