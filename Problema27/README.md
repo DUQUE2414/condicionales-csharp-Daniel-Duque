@@ -1,13 +1,8 @@
-# Problema 27
+# Problema 27. Taquilla de cine
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` basada en tuplas (*Tuple Pattern Matching*).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite evaluar simultáneamente el día de la semana y la condición de estudiante dentro de una sola estructura declarativa, clasificando las tarifas promocionales, ordinarias y de fin de semana de forma limpia y legible.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema27.png)
