@@ -1,13 +1,8 @@
-# Problema 16
+# Problema 16. Ubicación de un dron
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Evaluación de tuplas mediante expresión `switch`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite agrupar las coordenadas $(X, Y)$ en una tupla para evaluarlas de forma simultánea, identificando primero las intersecciones críticas (Origen y Ejes) y categorizando posteriormente los cuatro cuadrantes cartesianos de manera concisa.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema16.png)
