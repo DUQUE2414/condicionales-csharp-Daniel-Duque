@@ -1,13 +1,8 @@
-# Problema 04
+# Problema 04. Alerta de batería
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicional simple `if`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una estructura `if` simple sin bloque `else` debido a que la alerta de batería baja es una acción condicional opcional, mientras que la impresión del nivel actual de batería es un paso incondicional que siempre debe ejecutarse.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema4.png)
