@@ -1,13 +1,8 @@
-# Problema 21
+# Problema 21. Carrito de compras
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Operador condicional ternario (`?:`) embebido en interpolación de cadenas (`$""`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite evaluar dinámicamente la concordancia gramatical (singular/plural) del sustantivo "artículo" en una única línea de asignación, formateando el mensaje de salida sin necesidad de duplicar la cadena base en estructuras condicionales compuestas.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema21.png)
