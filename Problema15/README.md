@@ -1,13 +1,8 @@
-# Problema 15
+# Problema 15. Índice de masa corporal (IMC)
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con patrones relacionales y lógicos (`<`, `>=`, `and`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se aplica la fórmula matemática $IMC = \frac{peso}{estatura^2}$ y se evalúa el resultado decimal utilizando pattern matching relacional en un `switch`, lo que permite mapear los rangos continuos de salud de forma clara y limpia.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema15.png)
