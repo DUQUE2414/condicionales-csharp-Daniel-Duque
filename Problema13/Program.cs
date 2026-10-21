@@ -1,6 +1,22 @@
-// Problema 13
-// Enunciado: (escribe aquí el enunciado del problema)
+// ### Problema 13. Códigos de país
 
-Console.WriteLine("Problema 13");
+// Un formulario web recibe un código de país de dos letras y debe guardar en una variable el nombre completo:
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+// - “CO” → Colombia · “MX” → México · “AR” → Argentina · “PE” → Perú · “CL” → Chile
+// - Cualquier otro → `País no registrado`
+
+
+Console.WriteLine("Ingrese el código del país (ej. CO, MX, AR):");
+string pais = Console.ReadLine()!.Trim().ToUpper();
+
+string codigo = pais switch
+{
+    "CO" => "Colombia",
+    "MX" => "México",
+    "AR" => "Argentina",
+    "PE" => "Perú",
+    "CL" => "Chile",
+    _ => "País no registrado"
+};
+
+Console.WriteLine($"El país es: {codigo}");

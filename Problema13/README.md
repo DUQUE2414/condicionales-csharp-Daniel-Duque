@@ -1,13 +1,8 @@
-# Problema 13
+# Problema 13. Códigos de país
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` de evaluación de cadenas (*Pattern Matching*).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza un `switch` directo sobre una cadena de texto previamente normalizada en mayúsculas (`ToUpper()`), lo que permite realizar un mapeo rápido y legible de constantes de dos letras hacia el nombre completo del país correspondiente.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema13.png)
