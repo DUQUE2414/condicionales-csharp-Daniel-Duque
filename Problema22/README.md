@@ -1,13 +1,8 @@
-# Problema 22
+# Problema 22. Calculadora básica
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicionales anidados `if / else if / else` combinados con lanzamiento de excepciones (`throw`) y control de errores con `try / catch`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se realiza una evaluación de control de flujo imperativo tradicional para clasificar el carácter del operador y verificar el caso de división entre cero dentro de la rama correspondiente antes de realizar la operación aritmética, garantizando el manejo seguro de errores runtime mediante excepciones.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema22.png)
