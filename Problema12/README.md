@@ -1,13 +1,8 @@
-# Problema 12
+# Problema 12. Aprobación de crédito
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicional anidado `if / else`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una estructura condicional anidada para implementar un filtro secuencial en dos niveles: primero se evalúa la condición obligatoria (tener empleo) y, únicamente si se cumple, se pasa a evaluar el rango de ingresos para determinar el nivel de crédito asignado.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema12.png)
