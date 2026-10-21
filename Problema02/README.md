@@ -1,13 +1,8 @@
-# Problema 02
+# Problema 02. Tarifa de envío por peso
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Validación preliminar con `if / else` y cálculo con expresión `switch`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza un `if` para filtrar los casos inválidos (pesos menores o iguales a cero) y una expresión `switch` para evaluar de manera concisa y clara los rangos continuos del peso sin caer en múltiples evaluaciones redundantes.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema2.png)
