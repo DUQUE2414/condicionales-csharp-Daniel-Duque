@@ -1,13 +1,8 @@
-# Problema 05
+# Problema 05. El mayor de dos números
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Operador condicional ternario (`?:`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza un operador ternario para realizar una asignación condicional compacta en una sola línea de código, permitiendo seleccionar el valor numérico máximo entre dos variables de forma eficiente.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema5.png)
