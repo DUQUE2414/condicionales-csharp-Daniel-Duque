@@ -1,13 +1,8 @@
-# Problema 26
+# Problema 26. Peaje
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con lanzamiento de excepciones (`throw`) y control mediante `try / catch`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una expresión `switch` sobre el carácter que representa la categoría del vehículo para mapear directamente el costo del peaje e identificar entradas inválidas mediante el lanzamiento explícito de una excepción.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema26.png)
