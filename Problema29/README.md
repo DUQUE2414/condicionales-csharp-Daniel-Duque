@@ -1,13 +1,8 @@
-# Problema 29
+# Problema 29. Control de acceso a la sede
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` basada en tuplas con patrones relacionales y lógicos.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite evaluar simultáneamente el rol del usuario y la franja horaria dentro de un único bloque expresivo, asignando el permiso correspondiente o denegando el acceso por defecto para combinaciones o roles no autorizados.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema29.png)
