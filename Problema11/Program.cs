@@ -1,6 +1,25 @@
-// Problema 11
-// Enunciado: (escribe aquí el enunciado del problema)
+// ### Problema 11. Semáforo inteligente
 
-Console.WriteLine("Problema 11");
+// Define un tipo con los estados posibles de un semáforo: Rojo, Amarillo y Verde. Según el estado actual, 
+// el programa imprime la instruccion para el conductor:
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+// - Rojo → `Deténgase`
+// - Amarillo → `Precaución, prepárese para detenerse`
+// - Verde → `Avance`
+
+
+
+
+Console.WriteLine("Ingrese el estado del semaforo (rojo, amarillo, verde)");
+string estado = Console.ReadLine()!.Trim().ToLower();
+
+
+string instruccion = estado switch
+{
+    "rojo" => "detengase",
+    "amarillo" => "Precaución, prepárese para detenerse",
+    "verde" => "avance",
+    _ => "Opcion invalida"
+};
+
+Console.WriteLine(instruccion);

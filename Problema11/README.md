@@ -1,13 +1,8 @@
-# Problema 11
+# Problema 11. Estados de un semáforo
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Evaluación de texto mediante expresión `switch`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se realiza una lectura directa de la cadena de texto ingresada por consola, normalizando el formato a minúsculas para evaluar los tres casos posibles del semáforo de forma directa y concisa.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema11.png)
