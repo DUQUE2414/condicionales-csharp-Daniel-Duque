@@ -1,13 +1,8 @@
-# Problema 10
+# Problema 10. Descripción de tipo de dato (`object`)
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Evaluación de tipos con expresión `switch` (*Type Pattern Matching*).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite inspeccionar dinámicamente el tipo subyacente almacenado dentro de una variable genérica `object` de forma directa y legible, asignando el valor a una variable fuertemente tipada en cada brazo del `switch`.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema10.png)
