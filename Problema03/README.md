@@ -1,13 +1,8 @@
-# Problema 03
+# Problema 03. Menú de cajero automático
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Control de flujo con `switch` tradicional (`case` / `default`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza un `switch` condicional ya que la variable de entrada evalúa valores discretos y exactos (opciones numéricas del 1 al 4) para dirigir el flujo del programa, dejando un caso `default` para capturar cualquier opción fuera de rango.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema3.png)
