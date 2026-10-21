@@ -1,13 +1,8 @@
-# Problema 20
+# Problema 20. Días de cada mes
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con patrón lógico disyuntivo (`or`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se agrupan los casos de los meses que poseen la misma duración mediante el operador `or` dentro de una expresión `switch`, simplificando la evaluación de los 12 meses del año no bisiesto y controlando de manera centralizada los valores fuera de rango con el descarte por defecto (`_`).
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema20.png)
