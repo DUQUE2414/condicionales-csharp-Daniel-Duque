@@ -1,13 +1,8 @@
-# Problema 07
+# Problema 07. Signo de un número
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicional múltiple `if / else if / else`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una estructura condicional en cadena para evaluar tres estados mutuamente excluyentes del número ingresado: mayor a cero (positivo), menor a cero (negativo) o igual a cero.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema7.png)

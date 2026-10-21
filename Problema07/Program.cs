@@ -1,6 +1,21 @@
-// Problema 07
-// Enunciado: (escribe aquí el enunciado del problema)
+// ### Problema 7. Signo de un número
 
-Console.WriteLine("Problema 07");
+// Lee un número entero e indica si es positivo, negativo o cero.
 
-// TODO: leer datos, aplicar if / else if / else / switch y mostrar el resultado
+// - 8 → `Positivo` · -5 → `Negativo` · 0 → `Cero`
+
+Console.WriteLine("Ingrese un numero");
+int numero = int.Parse(Console.ReadLine()!);
+
+if (numero > 0)
+{
+    Console.WriteLine("Positivo");
+}
+else if (numero < 0)
+{
+    Console.WriteLine("Negativo");
+}
+else
+{
+    Console.WriteLine("Cero");
+}
