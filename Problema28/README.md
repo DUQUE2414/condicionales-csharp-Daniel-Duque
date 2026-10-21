@@ -1,13 +1,8 @@
-# Problema 28
+# Problema 28. Descuento por compra
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con patrones relacionales combinada con operador condicional ternario (`?:`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una expresión `switch` relacional para calcular el porcentaje de descuento base según el rango del monto de compra, seguido de la adición condicional del beneficio por cliente frecuente mediante un operador ternario, garantizando un cálculo directo y preciso del total a pagar.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema28.png)
