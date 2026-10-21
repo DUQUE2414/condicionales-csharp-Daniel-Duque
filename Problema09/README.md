@@ -1,13 +1,8 @@
-# Problema 09
+# Problema 09. Año bisiesto
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicional doble `if / else` con operadores lógicos (`&&`, `||`) y operador de módulo (`%`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una expresión lógica compuesta que evalúa las dos condiciones del calendario gregoriano en una sola instrucción condicional: dividendo exacto entre 4 excluyendo centenarios, o dividendo exacto entre 400.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema9.png)
