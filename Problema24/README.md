@@ -1,13 +1,8 @@
-# Problema 24
+# Problema 24. ¿Día hábil?
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con patrones relacionales y disyuntivos (`>=`, `<=`, `or`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Permite categorizar en un solo bloque conciso el rango numérico continuo de los días laborables (1 al 5) y las opciones fijas del fin de semana (6 y 7), utilizando el patrón por defecto (`_`) para controlar de forma segura cualquier entrada fuera del rango válido.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema24.png)
