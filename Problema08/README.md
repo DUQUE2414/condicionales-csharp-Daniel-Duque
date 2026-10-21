@@ -1,13 +1,8 @@
-# Problema 08
+# Problema 08. Vocal o consonante
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Condicional múltiple `if / else if / else` con operadores lógicos (`||`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una estructura `if` para filtrar primero caracteres no alfabéticos, un `else if` con el operador relacional `||` para agrupar la validación de las 5 vocales, y un bloque `else` final para clasificar las consonantes.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema8.png)
