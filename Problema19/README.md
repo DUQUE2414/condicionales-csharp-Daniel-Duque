@@ -1,13 +1,8 @@
-# Problema 19
+# Problema 19. Radar de velocidad
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` con patrones relacionales y lógicos (`<`, `<=`, `and`).
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza pattern matching relacional sobre la velocidad medida para categorizar en un solo bloque expresivo los distintos rangos de infracción, garantizando la cobertura de límites e identificando valores erróneos mediante la primera regla.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema19.png)
