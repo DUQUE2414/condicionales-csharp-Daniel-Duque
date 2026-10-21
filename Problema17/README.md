@@ -1,13 +1,8 @@
-# Problema 17
+# Problema 17. Control de un reproductor
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresión `switch` de evaluación de texto.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Se utiliza una expresión `switch` junto con la normalización a minúsculas (`ToLower()`) para evaluar los comandos del reproductor de forma eficiente y directa, asignando la acción correspondiente o manejando un caso por defecto para entradas no válidas.
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema17.png)
