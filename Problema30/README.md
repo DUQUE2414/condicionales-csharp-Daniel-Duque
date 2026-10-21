@@ -1,13 +1,8 @@
-# Problema 30
+# Problema 30. Boletín de calificaciones (integrador)
 
-## Enunciado
-(Pega aquí el enunciado del problema.)
+**Estructura elegida:** Expresiones `switch` con patrones relacionales y disyuntivos (`>=`, `or`), combinadas con operadores ternarios e instrucciones condicionales `if`.
 
-## Estructura condicional elegida
-(if / if-else / else if / switch / operador ternario)
+**Justificación:** Como ejercicio integrador, utiliza una primera expresión `switch` relacional para la conversión directa del promedio continuo a escala alfabética, una segunda expresión `switch` para la selección del mensaje pedagógico de retroalimentación, un operador ternario para definir el estado final de aprobación y una instrucción condicional `if` independiente para otorgar la distinción especial ante un rendimiento perfecto (100).
 
-## Justificación
-(Explica por qué esta estructura es la más adecuada para este problema.)
-
-## Evidencia
-![Salida](evidencias/salida.png)
+**Evidencia:**
+![Salida](evidencias/problema30.png)
